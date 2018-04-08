@@ -1,5 +1,4 @@
 rubocop
-check .travis.yml
 check .gitignore
 check .dockeringore (check Docker image for shit files)
 rm config/inventory.yml.my
