@@ -127,11 +127,6 @@ Style/HashSyntax:
   Exclude:
     - 'Rakefile'
 
-# Offense count: 1
-Style/IfInsideElse:
-  Exclude:
-    - 'lib/bakery/optimization_problem/series_generator.rb'
-
 # Offense count: 3
 # Cop supports --auto-correct.
 Style/IfUnlessModifier:

@@ -26,8 +26,8 @@ module Bakery
             iterators[depth] = i
             generate_n(depth + 1, iterators)
           end
-        else
-          @series.push(iterators.dup) if equation.root?(iterators)
+        elsif equation.root?(iterators)
+          @series.push(iterators.dup)
         end
       end
 
