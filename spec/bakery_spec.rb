@@ -51,7 +51,7 @@ RSpec.describe Bakery do
   describe '::Product' do
     describe '#packs' do
       it 'has many packs' do
-        cake_08 = Bakery::Product.new('CAKE-08','Banoffee Pie')
+        cake_08 = Bakery::Product.new('CAKE-08', 'Banoffee Pie')
         cake_08_pack_3 = Bakery::Pack.new(cake_08, 3, 15.15)
         cake_08_pack_8 = Bakery::Pack.new(cake_08, 8, 28.99)
 
@@ -62,7 +62,7 @@ RSpec.describe Bakery do
 
     describe '#ordered_packs' do
       it 'sort packs by item_count DESC' do
-        cake_09 = Bakery::Product.new('CAKE-09','Red Velvet Cake')
+        cake_09 = Bakery::Product.new('CAKE-09', 'Red Velvet Cake')
         cake_09_pack_3 = Bakery::Pack.new(cake_09, 3, 15.15)
         cake_09_pack_8 = Bakery::Pack.new(cake_09, 8, 28.99)
         cake_09_pack_5 = Bakery::Pack.new(cake_09, 5, 22.45)

@@ -4,9 +4,9 @@ require 'bakery/pack'
 RSpec.describe Bakery::Pack do
   describe '::all' do
     it 'includes all packs' do
-      cake_01 = Bakery::Product.new('CAKE-01','Caramel Marble Cake')
-      cake_02 = Bakery::Product.new('CAKE-02','Blueberry Cheesecake')
-      cake_03 = Bakery::Product.new('CAKE-03','Espresso Chocolate Chip Brownie')
+      cake_01 = Bakery::Product.new('CAKE-01', 'Caramel Marble Cake')
+      cake_02 = Bakery::Product.new('CAKE-02', 'Blueberry Cheesecake')
+      cake_03 = Bakery::Product.new('CAKE-03', 'Espresso Chocolate Chip Brownie')
       cake_01_pack_2 = described_class.new(cake_01, 2, 5.15)
       cake_01_pack_4 = described_class.new(cake_01, 5, 9.99)
       cake_02_pack_3 = described_class.new(cake_02, 3, 5.15)
@@ -24,7 +24,7 @@ RSpec.describe Bakery::Pack do
 
   describe '::new' do
     it 'validates pack item count uniqueness' do
-      cake_04 = Bakery::Product.new('CAKE-04','Chocolate Marble Cake')
+      cake_04 = Bakery::Product.new('CAKE-04', 'Chocolate Marble Cake')
       described_class.new(cake_04, 4, 15.15)
 
       expect { described_class.new(cake_04, 4, 18.15) }.to raise_error(described_class::PackItemCountNotUnique)
@@ -33,7 +33,7 @@ RSpec.describe Bakery::Pack do
 
   describe '#item_count' do
     it 'attribute' do
-      cake_05 = Bakery::Product.new('CAKE-05','Mango Yoghurt Cake')
+      cake_05 = Bakery::Product.new('CAKE-05', 'Mango Yoghurt Cake')
 
       expect(described_class.new(cake_05, 3, 10.00).item_count).to eq(3)
     end
@@ -41,7 +41,7 @@ RSpec.describe Bakery::Pack do
 
   describe '#price' do
     it 'attribute' do
-      cake_06 = Bakery::Product.new('CAKE-06','Coconut Cake')
+      cake_06 = Bakery::Product.new('CAKE-06', 'Coconut Cake')
 
       expect(described_class.new(cake_06, 1, 9.99).price).to eq(9.99)
     end
@@ -49,7 +49,7 @@ RSpec.describe Bakery::Pack do
 
   describe '#product' do
     it 'attribute' do
-      cake_07 = Bakery::Product.new('CAKE-07','Signature Chocolate Cake')
+      cake_07 = Bakery::Product.new('CAKE-07', 'Signature Chocolate Cake')
 
       expect(described_class.new(cake_07, 1, 9.99).product).to eq(cake_07)
     end
