@@ -24,7 +24,7 @@ module Bakery
     private
 
     def validate_pack_item_count_uniqueness(item_count)
-      product.packs.map(&:item_count).none? {|count| count == item_count}
+      product.packs.map(&:item_count).none? { |count| count == item_count }
     end
   end
 end

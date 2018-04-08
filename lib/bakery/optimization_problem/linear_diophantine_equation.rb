@@ -10,7 +10,7 @@ module Bakery
       end
 
       def root?(coordinates)
-        @coefficients.map.with_index {|e, i| e * coordinates[i]}.sum == @constant_term
+        @coefficients.map.with_index { |e, i| e * coordinates[i] }.sum == @constant_term
       end
 
       private

@@ -1,7 +1,7 @@
 module Bakery
   class Printer
     def self.print_order(order)
-      order.lines.map {|l| print_order_line(l)}.join
+      order.lines.map { |l| print_order_line(l) }.join
     end
 
     def self.print_order_line(line)

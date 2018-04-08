@@ -6,7 +6,7 @@ RSpec.describe Bakery::OptimizationProblem::MinMax do
       object = Object.new
 
       def object.metric(array)
-        array.map {|e| e * 10 + 1}.sum - 10
+        array.map { |e| e * 10 + 1 }.sum - 10
       end
 
       combinations = [2, 0], [2, 2]

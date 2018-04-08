@@ -6,22 +6,6 @@
 # Note that changes in the inspected code, or installation of new
 # versions of RuboCop, may require this file to be generated again.
 
-# Offense count: 36
-# Cop supports --auto-correct.
-# Configuration parameters: EnforcedStyle, EnforcedStyleForEmptyBraces, SpaceBeforeBlockParameters.
-# SupportedStyles: space, no_space
-# SupportedStylesForEmptyBraces: space, no_space
-Layout/SpaceInsideBlockBraces:
-  Exclude:
-    - 'lib/bakery/optimization_problem/linear_diophantine_equation.rb'
-    - 'lib/bakery/order_line.rb'
-    - 'lib/bakery/pack.rb'
-    - 'lib/bakery/printer.rb'
-    - 'lib/bakery/product.rb'
-    - 'spec/bakery/optimization_problem/min_max_spec.rb'
-    - 'spec/bakery/order_line_spec.rb'
-    - 'spec/bakery_spec.rb'
-
 # Offense count: 6
 Lint/UselessAssignment:
   Exclude:

@@ -39,8 +39,8 @@ RSpec.describe Bakery::OrderLine do
 
       expect(order_line.pack_counts.size).to eq(2)
 
-      pc_1 = order_line.pack_counts.select {|pc| pc.pack == pack_1}.first
-      pc_4 = order_line.pack_counts.select {|pc| pc.pack == pack_4}.first
+      pc_1 = order_line.pack_counts.select { |pc| pc.pack == pack_1 }.first
+      pc_4 = order_line.pack_counts.select { |pc| pc.pack == pack_4 }.first
 
       expect(pc_1.pack).to eq(pack_1)
       expect(pc_1.count).to eq(1)

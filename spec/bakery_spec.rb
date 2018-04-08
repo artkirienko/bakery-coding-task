@@ -18,15 +18,15 @@ RSpec.describe Bakery do
     product = Bakery::Product.find_by_code('CF')
     Bakery::OrderLine.new(order, product, 13)
 
-    vs5_line = order.lines.select {|line| line.product.code == 'VS5'}.first
-    mb11_line = order.lines.select {|line| line.product.code == 'MB11'}.first
-    cf_line = order.lines.select {|line| line.product.code == 'CF'}.first
+    vs5_line = order.lines.select { |line| line.product.code == 'VS5' }.first
+    mb11_line = order.lines.select { |line| line.product.code == 'MB11' }.first
+    cf_line = order.lines.select { |line| line.product.code == 'CF' }.first
 
-    vs5_5_pack = vs5_line.pack_counts.select {|pc| pc.pack.item_count == 5}.first
-    mb11_8_pack = mb11_line.pack_counts.select {|pc| pc.pack.item_count == 8}.first
-    mb11_2_pack = mb11_line.pack_counts.select {|pc| pc.pack.item_count == 2}.first
-    cf_5_pack = cf_line.pack_counts.select {|pc| pc.pack.item_count == 5}.first
-    cf_3_pack = cf_line.pack_counts.select {|pc| pc.pack.item_count == 3}.first
+    vs5_5_pack = vs5_line.pack_counts.select { |pc| pc.pack.item_count == 5 }.first
+    mb11_8_pack = mb11_line.pack_counts.select { |pc| pc.pack.item_count == 8 }.first
+    mb11_2_pack = mb11_line.pack_counts.select { |pc| pc.pack.item_count == 2 }.first
+    cf_5_pack = cf_line.pack_counts.select { |pc| pc.pack.item_count == 5 }.first
+    cf_3_pack = cf_line.pack_counts.select { |pc| pc.pack.item_count == 3 }.first
 
     expect(order.total).to eq(98.63)
     expect(order.lines.size).to eq(3)

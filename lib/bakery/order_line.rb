@@ -41,7 +41,7 @@ module Bakery
 
     def calculate_best_combination
       packs_counts = @packs.map(&:item_count)
-      series_counts = packs_counts.map {|n| count / n}
+      series_counts = packs_counts.map { |n| count / n }
       equation = OptimizationProblem::LinearDiophantineEquation.new(packs_counts, count)
       generator = OptimizationProblem::SeriesGenerator.new(series_counts, equation)
       series = generator.generate_series
@@ -62,7 +62,7 @@ module Bakery
     end
 
     def validate_order_line_product_uniqueness(product)
-      order.lines.map(&:product).none? {|prod| prod.code == product.code}
+      order.lines.map(&:product).none? { |prod| prod.code == product.code }
     end
   end
 end
