@@ -148,12 +148,6 @@ Style/MethodCallWithoutArgsParentheses:
 
 # Offense count: 1
 # Cop supports --auto-correct.
-Style/MutableConstant:
-  Exclude:
-    - 'lib/bakery/version.rb'
-
-# Offense count: 1
-# Cop supports --auto-correct.
 # Configuration parameters: AutoCorrect, EnforcedStyle.
 # SupportedStyles: predicate, comparison
 Style/NumericPredicate:
