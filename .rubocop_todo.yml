@@ -38,11 +38,6 @@ Layout/TrailingWhitespace:
     - 'spec/bakery/optimization_problem/min_max_spec.rb'
     - 'spec/bakery/product_spec.rb'
 
-# Offense count: 1
-Lint/ShadowingOuterLocalVariable:
-  Exclude:
-    - 'lib/bakery/product.rb'
-
 # Offense count: 6
 Lint/UselessAssignment:
   Exclude:

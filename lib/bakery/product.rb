@@ -28,7 +28,7 @@ module Bakery
     end
 
     def self.find_by_code(code)
-      product = all.select {|product| product.code == code}.first
+      product = all.select {|prod| prod.code == code}.first
       raise ProductNotFound unless product
       product
     end
