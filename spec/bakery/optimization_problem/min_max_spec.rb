@@ -5,8 +5,8 @@ RSpec.describe Bakery::OptimizationProblem::MinMax do
     it 'finds min by metric' do
       object = Object.new
 
-      def object.metric(a)
-        a.map {|e| e * 10 + 1}.sum - 10
+      def object.metric(array)
+        array.map {|e| e * 10 + 1}.sum - 10
       end
 
       combinations = [2, 0], [2, 2]
@@ -20,8 +20,8 @@ RSpec.describe Bakery::OptimizationProblem::MinMax do
     it 'finds max by metric' do
       object = Object.new
 
-      def object.metric(a)
-        a.sum
+      def object.metric(array)
+        array.sum
       end
 
       combinations = [2, 0], [2, 2]
@@ -35,12 +35,12 @@ RSpec.describe Bakery::OptimizationProblem::MinMax do
     it 'finds min by metric_1, finds max by metric_2' do
       object = Object.new
 
-      def object.metric_1(a)
-        a.sum
+      def object.metric_1(array)
+        array.sum
       end
 
-      def object.metric_2(a)
-        a.reduce(:*)
+      def object.metric_2(array)
+        array.reduce(:*)
       end
 
       combinations = [2, 0], [1, 1]

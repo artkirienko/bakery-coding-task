@@ -71,13 +71,6 @@ Naming/PredicateName:
     - 'spec/**/*'
     - 'lib/bakery/optimization_problem/linear_diophantine_equation.rb'
 
-# Offense count: 4
-# Configuration parameters: MinNameLength, AllowNamesEndingInNumbers, AllowedNames, ForbiddenNames.
-# AllowedNames: io, id, to
-Naming/UncommunicativeMethodParamName:
-  Exclude:
-    - 'spec/bakery/optimization_problem/min_max_spec.rb'
-
 # Offense count: 47
 # Configuration parameters: EnforcedStyle.
 # SupportedStyles: snake_case, normalcase, non_integer
