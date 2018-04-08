@@ -17,7 +17,7 @@ module Bakery
       @packs = []
 
       unless validate_code_uniqueness(code)
-        raise ProductCodeNotUnique 
+        raise ProductCodeNotUnique
       end
 
       self.class.all << self

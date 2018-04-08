@@ -11,7 +11,7 @@ RSpec.describe Bakery::OptimizationProblem::MinMax do
 
       combinations = [2, 0], [2, 2]
       min_max = described_class.new(object, combinations)
-      
+
       expect(min_max.min_by(:metric).run).to match([2, 0])
     end
   end

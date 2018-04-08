@@ -28,7 +28,7 @@ RSpec.describe Bakery::Product do
   describe '::new' do
     it 'validate_code_uniqueness' do
       esp_07 = described_class.new('ESP-07', 'Espresso Solo')
-      
+
       expect { described_class.new('ESP-07', 'Espresso Con Panna') }.to raise_error(described_class::ProductCodeNotUnique)
     end
   end

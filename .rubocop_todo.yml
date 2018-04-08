@@ -30,14 +30,6 @@ Layout/SpaceInsideBlockBraces:
 Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
 
-# Offense count: 3
-# Cop supports --auto-correct.
-Layout/TrailingWhitespace:
-  Exclude:
-    - 'lib/bakery/product.rb'
-    - 'spec/bakery/optimization_problem/min_max_spec.rb'
-    - 'spec/bakery/product_spec.rb'
-
 # Offense count: 6
 Lint/UselessAssignment:
   Exclude:
