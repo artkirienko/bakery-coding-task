@@ -1,4 +1,5 @@
 .git
 .gitignore
+.byebug_history
 .travis.yml
 README.md
