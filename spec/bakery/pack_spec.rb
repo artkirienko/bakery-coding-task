@@ -40,12 +40,12 @@ RSpec.describe Bakery::Pack do
   end
 
   describe '#price' do
-  it 'attribute' do
-    cake_06 = Bakery::Product.new('CAKE-06','Coconut Cake')
+    it 'attribute' do
+      cake_06 = Bakery::Product.new('CAKE-06','Coconut Cake')
 
-    expect(described_class.new(cake_06, 1, 9.99).price).to eq(9.99)
+      expect(described_class.new(cake_06, 1, 9.99).price).to eq(9.99)
+    end
   end
-end
 
   describe '#product' do
     it 'attribute' do

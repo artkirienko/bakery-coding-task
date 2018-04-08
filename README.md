@@ -1,7 +1,6 @@
 rubocop
 check .gitignore
 check .dockeringore (check Docker image for shit files)
-rm config/inventory.yml.my
 byebug
 
 ### Important! My notes:
