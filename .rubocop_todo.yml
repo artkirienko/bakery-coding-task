@@ -22,14 +22,6 @@ Layout/SpaceInsideBlockBraces:
     - 'spec/bakery/order_line_spec.rb'
     - 'spec/bakery_spec.rb'
 
-# Offense count: 8
-# Cop supports --auto-correct.
-# Configuration parameters: EnforcedStyleForEmptyBraces.
-# SupportedStyles: space, no_space, compact
-# SupportedStylesForEmptyBraces: space, no_space
-Layout/SpaceInsideHashLiteralBraces:
-  EnforcedStyle: no_space
-
 # Offense count: 6
 Lint/UselessAssignment:
   Exclude:

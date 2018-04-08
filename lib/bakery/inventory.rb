@@ -16,13 +16,13 @@ module Bakery
 
     def self.dump(path = DEFAULT_INVENTORY_PATH)
       products = Product.all.map do |product|
-        h = {'code' => product.code, 'name' => product.name}
+        h = { 'code' => product.code, 'name' => product.name }
         h['packs'] = product.packs.map do |pack|
-          {'item_count' => pack.item_count, 'price' => pack.price}
+          { 'item_count' => pack.item_count, 'price' => pack.price }
         end
         h
       end
-      inventory = {'products' => products}
+      inventory = { 'products' => products }
       f = File.new(path, 'w')
       f.write(YAML.dump(inventory))
       f.close
