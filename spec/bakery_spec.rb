@@ -1,11 +1,11 @@
-require "bakery"
+require 'bakery'
 
 RSpec.describe Bakery do
-  it "has a version number" do
+  it 'has a version number' do
     expect(Bakery::VERSION).not_to be nil
   end
 
-  it "calculates totals correctly for example input" do
+  it 'calculates totals correctly for example input' do
     Bakery::Inventory.load('spec/files/inventory.yml')
     order = Bakery::Order.new
 
