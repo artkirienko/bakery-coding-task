@@ -1,7 +1,3 @@
-check .gitignore
-check .dockeringore (check Docker image for shit files)
-byebug
-
 ### Important! My notes:
 
 For the example input
