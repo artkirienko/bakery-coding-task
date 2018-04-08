@@ -3,7 +3,7 @@ require 'bakery/optimization_problem/series_generator'
 RSpec.describe Bakery::OptimizationProblem::SeriesGenerator do
   describe '#generate_series' do
     it 'example #1' do
-      equation = double()
+      equation = double
       allow(equation).to receive(:root?) { true }
       generator = described_class.new([2, 4], equation)
       result = [[0, 0], [0, 1], [0, 2], [0, 3], [0, 4], [1, 0], [1, 1], [1, 2],
@@ -13,7 +13,7 @@ RSpec.describe Bakery::OptimizationProblem::SeriesGenerator do
     end
 
     it 'example #2' do
-      equation = double()
+      equation = double
       allow(equation).to receive(:root?) { true }
       generator = described_class.new([1, 2, 7], equation)
       result = [[0, 0, 0], [0, 0, 1], [0, 0, 2], [0, 0, 3], [0, 0, 4],
@@ -31,7 +31,7 @@ RSpec.describe Bakery::OptimizationProblem::SeriesGenerator do
     end
 
     it 'example #3' do
-      equation = double()
+      equation = double
       allow(equation).to receive(:root?) { true }
       generator = described_class.new([1, 1, 1, 1], equation)
       result = [[0, 0, 0, 0], [0, 0, 0, 1], [0, 0, 1, 0], [0, 0, 1, 1],
