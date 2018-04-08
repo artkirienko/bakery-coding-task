@@ -23,7 +23,7 @@ module Bakery
 
     def pack_counts
       best_combination.map.with_index do |count, i|
-        OpenStruct.new({pack: @packs[i], count: count}) unless count.zero?
+        OpenStruct.new(pack: @packs[i], count: count) unless count.zero?
       end.compact
     end
 

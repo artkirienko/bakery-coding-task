@@ -88,14 +88,6 @@ Naming/VariableNumber:
     - 'spec/bakery/product_spec.rb'
     - 'spec/bakery_spec.rb'
 
-# Offense count: 1
-# Cop supports --auto-correct.
-# Configuration parameters: EnforcedStyle.
-# SupportedStyles: braces, no_braces, context_dependent
-Style/BracesAroundHashParameters:
-  Exclude:
-    - 'lib/bakery/order_line.rb'
-
 # Offense count: 10
 Style/Documentation:
   Exclude:
