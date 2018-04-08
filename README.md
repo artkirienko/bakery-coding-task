@@ -1,4 +1,3 @@
-rubocop
 check .gitignore
 check .dockeringore (check Docker image for shit files)
 byebug
