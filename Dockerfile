@@ -1,4 +1,4 @@
-FROM ruby:2.5.1
+FROM ruby:2.5.3
 COPY ./ /usr/src/app/
 WORKDIR /usr/src/app
 RUN bundle
