@@ -44,7 +44,7 @@ To make this application production-ready: use a database to store inventory/men
 
 #### Requirements
 
-**Ruby 2.6.0** or **Docker**
+**Ruby 2.6.1** or **Docker**
 
 #### Run with Ruby
 
