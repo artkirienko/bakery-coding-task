@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.6.2'
+ruby '2.6.3'
 
 group :development, :test do
   gem 'byebug', '~> 10.0'
