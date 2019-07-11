@@ -9,7 +9,7 @@ GEM
       ast (~> 2.4.0)
     powerpack (0.1.1)
     rainbow (3.0.0)
-    rake (10.5.0)
+    rake (12.3.3)
     rspec (3.7.0)
       rspec-core (~> 3.7.0)
       rspec-expectations (~> 3.7.0)
@@ -38,7 +38,7 @@ PLATFORMS
 
 DEPENDENCIES
   byebug (~> 10.0)
-  rake (~> 10.0)
+  rake (~> 12.3)
   rspec (~> 3.0)
   rubocop
 
