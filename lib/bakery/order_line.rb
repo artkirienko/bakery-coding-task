@@ -14,6 +14,7 @@ module Bakery
       unless validate_order_line_product_uniqueness(product)
         raise OrderLineProductNotUnique
       end
+
       @order.lines << self
     end
 
