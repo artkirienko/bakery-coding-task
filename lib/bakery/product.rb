@@ -30,6 +30,7 @@ module Bakery
     def self.find_by_code(code)
       product = all.find { |prod| prod.code == code }
       raise ProductNotFound unless product
+
       product
     end
 
