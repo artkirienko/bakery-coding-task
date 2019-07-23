@@ -24,7 +24,7 @@ module Bakery
     end
 
     def ordered_packs
-      packs.sort { |x, y| y.item_count <=> x.item_count }
+      packs.sort_by { |pack| -pack.item_count }
     end
 
     def self.find_by_code(code)
