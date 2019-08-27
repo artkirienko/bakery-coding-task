@@ -1,3 +1,10 @@
+[![Build Status](https://img.shields.io/travis/artkirienko/bakery-coding-task/master.svg?style=flat-square)](https://travis-ci.org/artkirienko/bakery-coding-task)
+[![GitHub Actions Ruby](https://github.com/artkirienko/bakery-coding-task/workflows/Ruby/badge.svg)](https://github.com/artkirienko/bakery-coding-task/actions)
+[![GitHub Actions Docker Image CI](https://github.com/artkirienko/bakery-coding-task/workflows/Docker%20Image%20CI/badge.svg)](https://github.com/artkirienko/bakery-coding-task/actions)
+[![HitCount](http://hits.dwyl.io/artkirienko/bakery-coding-task.svg)](http://hits.dwyl.io/artkirienko/bakery-coding-task)
+
+# Bakery Coding Task
+
 ### Important! My notes:
 
 For the example input
