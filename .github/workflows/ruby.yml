@@ -13,7 +13,7 @@ jobs:
       uses: actions/setup-ruby@v1
       with:
         ruby-version: 2.6.3
-    - name: Build and test with Rake
+    - name: Build and test with Rake, RSpec, RuboCop, Fasterer
       run: |
         gem install bundler -v 2.0.2
         bundle install --jobs 4 --retry 3
