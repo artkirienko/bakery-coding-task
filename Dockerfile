@@ -1,4 +1,4 @@
-FROM ruby:2.6.3
+FROM ruby:2.7.0
 COPY ./ /usr/src/app/
 WORKDIR /usr/src/app
 
