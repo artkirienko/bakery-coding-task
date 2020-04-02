@@ -9,7 +9,7 @@ GEM
       colorize (~> 0.7)
       ruby_parser (>= 3.13.0)
     jaro_winkler (1.5.3)
-    parallel (1.17.0)
+    parallel (1.19.1)
     parser (2.6.3.0)
       ast (~> 2.4.0)
     rainbow (3.0.0)
