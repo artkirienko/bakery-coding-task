@@ -51,7 +51,7 @@ To make this application production-ready: use a database to store inventory/men
 
 #### Requirements
 
-**Ruby 2.6.3** or **Docker**
+**Ruby 2.7.0** or **Docker**
 
 #### Run with Ruby
 
@@ -136,7 +136,7 @@ Given a customer order you are required to determine the cost and pack breakdown
 
 #### Input
 
-Each order has a series of lines with each line containing the number of items followed by the product code. 
+Each order has a series of lines with each line containing the number of items followed by the product code.
 
 An example input:
 
