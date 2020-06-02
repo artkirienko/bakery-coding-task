@@ -6,5 +6,5 @@ group :development, :test do
   gem 'fasterer', '~> 0.8', require: false
   gem 'rake', '~> 13.0'
   gem 'rspec', '~> 3.9'
-  gem 'rubocop', '~> 0.84', require: false
+  gem 'rubocop', '~> 0.85', require: false
 end
