@@ -1,6 +1,9 @@
 [![Build Status](https://img.shields.io/travis/artkirienko/bakery-coding-task/master.svg?style=flat-square&logo=travis-ci&logoColor=orange)](https://travis-ci.org/artkirienko/bakery-coding-task)
 [![GitHub Actions Ruby](https://github.com/artkirienko/bakery-coding-task/workflows/Ruby/badge.svg)](https://github.com/artkirienko/bakery-coding-task/actions)
 [![GitHub Actions Docker Image CI](https://github.com/artkirienko/bakery-coding-task/workflows/Docker%20Image%20CI/badge.svg)](https://github.com/artkirienko/bakery-coding-task/actions)
+[![PullRequestsClosed](https://img.shields.io/github/issues-pr-closed/artkirienko/bakery-coding-task.svg?style=flat-square)](https://github.com/artkirienko/bakery-coding-task/pulls)
+[![SLOC](https://sloc.xyz/github/artkirienko/bakery-coding-task)](https://en.wikipedia.org/wiki/Source_lines_of_code)
+[![Hits-of-Code](https://hitsofcode.com/github/artkirienko/bakery-coding-task)](https://hitsofcode.com)
 [![HitCount](http://hits.dwyl.io/artkirienko/bakery-coding-task.svg)](http://hits.dwyl.io/artkirienko/bakery-coding-task)
 
 # Bakery Coding Task
