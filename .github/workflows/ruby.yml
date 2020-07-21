@@ -20,3 +20,5 @@ jobs:
         bundle exec rake
         bundle exec rubocop
         bundle exec fasterer
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v1
