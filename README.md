@@ -3,6 +3,7 @@
 [![GitHub Actions Docker Image CI](https://github.com/artkirienko/bakery-coding-task/workflows/Docker%20Image%20CI/badge.svg)](https://github.com/artkirienko/bakery-coding-task/actions)
 [![PullRequestsClosed](https://img.shields.io/github/issues-pr-closed/artkirienko/bakery-coding-task.svg?style=flat-square)](https://github.com/artkirienko/bakery-coding-task/pulls)
 [![codecov](https://codecov.io/gh/artkirienko/bakery-coding-task/branch/master/graph/badge.svg)](https://codecov.io/gh/artkirienko/bakery-coding-task)
+[![Maintainability](https://api.codeclimate.com/v1/badges/dd4afc9ff1e4fd70f753/maintainability)](https://codeclimate.com/github/artkirienko/bakery-coding-task/maintainability)
 [![SLOC](https://sloc.xyz/github/artkirienko/bakery-coding-task)](https://en.wikipedia.org/wiki/Source_lines_of_code)
 [![Hits-of-Code](https://hitsofcode.com/github/artkirienko/bakery-coding-task)](https://hitsofcode.com)
 [![HitCount](http://hits.dwyl.io/artkirienko/bakery-coding-task.svg)](http://hits.dwyl.io/artkirienko/bakery-coding-task)
