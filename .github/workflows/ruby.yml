@@ -20,3 +20,10 @@ jobs:
         bundle exec rake
         bundle exec rubocop
         bundle exec fasterer
+    - name: Test & publish code coverage
+      uses: paambaati/codeclimate-action@v2.6.0
+      env:
+        CC_TEST_REPORTER_ID: ${{secrets.CC_TEST_REPORTER_ID}}
+      with:
+        coverageCommand: bundle exec rake
+        debug: true
