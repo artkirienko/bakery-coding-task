@@ -1,3 +1,6 @@
+require 'simplecov'
+SimpleCov.start
+
 # Given that it is always loaded, you are encouraged to keep this file as
 # light-weight as possible. Requiring heavyweight dependencies from this file
 # will add to the boot time of your test suite on EVERY test run, even for an
