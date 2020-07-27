@@ -1,3 +1,4 @@
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/artkirienko/bakery-coding-task/issues)
 [![Build Status](https://img.shields.io/travis/artkirienko/bakery-coding-task/master.svg?style=flat-square&logo=travis-ci&logoColor=orange)](https://travis-ci.org/artkirienko/bakery-coding-task)
 [![GitHub Actions Ruby](https://github.com/artkirienko/bakery-coding-task/workflows/Ruby/badge.svg)](https://github.com/artkirienko/bakery-coding-task/actions)
 [![GitHub Actions Docker Image CI](https://github.com/artkirienko/bakery-coding-task/workflows/Docker%20Image%20CI/badge.svg)](https://github.com/artkirienko/bakery-coding-task/actions)
