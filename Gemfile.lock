@@ -3,7 +3,7 @@ GEM
   specs:
     ast (2.4.1)
     byebug (11.1.3)
-    codecov (0.2.8)
+    codecov (0.2.10)
       json
       simplecov
     colorize (0.8.1)
