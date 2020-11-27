@@ -13,7 +13,7 @@ GEM
       colorize (~> 0.7)
       ruby_parser (>= 3.14.1)
     json (2.3.1)
-    parallel (1.20.0)
+    parallel (1.20.1)
     parser (2.7.2.0)
       ast (~> 2.4.1)
     rainbow (3.0.0)
