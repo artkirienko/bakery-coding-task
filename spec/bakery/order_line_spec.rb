@@ -5,7 +5,7 @@ require 'bakery/pack'
 
 RSpec.describe Bakery::OrderLine do
   describe '::new' do
-    it 'validates order line product uniqueness' do
+    it 'validates order line product uniquenes' do
       brw_01 = Bakery::Product.new('BRW-01', 'Brewed Coffee by French Press')
       Bakery::Pack.new(brw_01, 1, 5.35)
       order = Bakery::Order.new
