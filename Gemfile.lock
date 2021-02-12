@@ -43,7 +43,7 @@ GEM
     rubocop-ast (0.8.0)
       parser (>= 2.7.1.5)
     ruby-progressbar (1.11.0)
-    ruby_parser (3.15.0)
+    ruby_parser (3.15.1)
       sexp_processor (~> 4.9)
     sexp_processor (4.15.2)
     simplecov (0.20.0)
