@@ -6,6 +6,8 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    env:
+      CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
 
     steps:
     - uses: actions/checkout@v1
@@ -22,5 +24,3 @@ jobs:
         bundle exec fasterer
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v1
-      with:
-        token: ${{ secrets.CODECOV_TOKEN }}
