@@ -1,16 +1,19 @@
 name: Docker Image CI
 
-on: [push]
+on:
+  pull_request:
+  push:
+    branches: [master]
 
 jobs:
-
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
-    - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag bakery:$(date +%s)
-    - name: Hadolint Action
-      uses: brpaz/hadolint-action@v1.2.1
-      with:
-        dockerfile: Dockerfile
+      - name: Checkout code
+        uses: actions/checkout@v1
+      - name: Build the Docker image
+        run: docker build . --file Dockerfile --tag bakery:$(date +%s)
+      - name: Hadolint Action
+        uses: brpaz/hadolint-action@v1.2.1
+        with:
+          dockerfile: Dockerfile
