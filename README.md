@@ -36,9 +36,10 @@ but there is another solution with the same number of packs:
 ```
 
 The only difference is price. So I assume, that I need to:
-* find solution **min by number of packs,** if there are solutions with **the same number of packs:**
-* find among them solution **max by total price,** if there are solutions with **the same price:**
-* choose any of them.
+
+- find solution **min by number of packs,** if there are solutions with **the same number of packs:**
+- find among them solution **max by total price,** if there are solutions with **the same price:**
+- choose any of them.
 
 ### Production: benchmarks etc.
 
@@ -130,7 +131,7 @@ empty code, empty name, empty price, empty count etc.
 
 A bakery used to base the price of their produce on an individual item cost. So if a customer ordered 10 cross buns then they would be charged 10x the cost of a single bun. The bakery has decided to start selling their produce prepackaged in bunches and charging the customer on a per pack basis. So if the shop sold vegemite scroll in packs of 3 and 5 and a customer ordered 8 they would get a pack of 3 and a pack of 5. The bakery currently sells the following products:
 
-| Name             | Code | Packs |
+| Name             | Code | Packs                                 |
 | ---------------- | ---- | ------------------------------------- |
 | Vegemite Scroll  | VS5  | 3 @ $6.99<br>5 @ $8.99                |
 | Blueberry Muffin | MB11 | 2 @ $9.95<br>5 @ $16.95<br>8 @ $24.95 |
@@ -169,26 +170,26 @@ A successfully passing test(s) that demonstrates the following output:
 
 #### Advice:
 
-* Choose whatever language you're comfortable with
-* The input/output format is not important, do whatever feels reasonable
-* Make sure you include at least one test
-* We expect the see code which you would be happy to put in production
-* If something is not clear don't hesitate to ask or just make an assumption and go with it
+- Choose whatever language you're comfortable with
+- The input/output format is not important, do whatever feels reasonable
+- Make sure you include at least one test
+- We expect the see code which you would be happy to put in production
+- If something is not clear don't hesitate to ask or just make an assumption and go with it
 
 #### CodingTaskCriteria
 
-* Is the code functional:
-  * Are there instructions to setup/install?
-  * Does it meet the minimum requirements in the specification?
-  * Does it return appropriate results in other circumstances?
-* Is the code readable:
-  * Sensible naming of variables and methods?
-  * Sensible method sizes (<20 lines)?
-  * Low complexity methods?
-* Is the code tested:
-  * Unit tests for at least major classes?
-  * End to end functional or integration tests?
-* Is the design sound:
-  * Is it object oriented?
-  * Does it follow the Single Responsibility Principle?
-  * Does it follow the Law of Demeter?
+- Is the code functional:
+  - Are there instructions to setup/install?
+  - Does it meet the minimum requirements in the specification?
+  - Does it return appropriate results in other circumstances?
+- Is the code readable:
+  - Sensible naming of variables and methods?
+  - Sensible method sizes (<20 lines)?
+  - Low complexity methods?
+- Is the code tested:
+  - Unit tests for at least major classes?
+  - End to end functional or integration tests?
+- Is the design sound:
+  - Is it object oriented?
+  - Does it follow the Single Responsibility Principle?
+  - Does it follow the Law of Demeter?
