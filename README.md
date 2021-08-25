@@ -1,5 +1,5 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/artkirienko/bakery-coding-task/issues)
-[![Build Status](https://img.shields.io/travis/artkirienko/bakery-coding-task/master.svg?style=flat-square&logo=travis-ci&logoColor=orange)](https://travis-ci.org/artkirienko/bakery-coding-task)
+[![Travis CI](https://img.shields.io/travis/com/travis-ci/travis-web?style=flat-square&logo=travisci&logoColor=orange&label=TravisCI)](https://travis-ci.com/pricing)
 [![GitHub Actions Ruby](https://github.com/artkirienko/bakery-coding-task/workflows/Ruby/badge.svg)](https://github.com/artkirienko/bakery-coding-task/actions)
 [![GitHub Actions Docker Image CI](https://github.com/artkirienko/bakery-coding-task/workflows/Docker%20Image%20CI/badge.svg)](https://github.com/artkirienko/bakery-coding-task/actions)
 [![PullRequestsClosed](https://img.shields.io/github/issues-pr-closed/artkirienko/bakery-coding-task.svg?style=flat-square)](https://github.com/artkirienko/bakery-coding-task/pulls)
