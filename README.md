@@ -7,7 +7,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/dd4afc9ff1e4fd70f753/maintainability)](https://codeclimate.com/github/artkirienko/bakery-coding-task/maintainability)
 [![SLOC](https://sloc.xyz/github/artkirienko/bakery-coding-task)](https://en.wikipedia.org/wiki/Source_lines_of_code)
 [![Hits-of-Code](https://hitsofcode.com/github/artkirienko/bakery-coding-task)](https://hitsofcode.com)
-[![HitCount](http://hits.dwyl.io/artkirienko/bakery-coding-task.svg)](http://hits.dwyl.io/artkirienko/bakery-coding-task)
+[![HitCount](https://hits.dwyl.com/artkirienko/bakery-coding-task.svg)](http://hits.dwyl.com/artkirienko/bakery-coding-task)
 
 # Bakery Coding Task
 
