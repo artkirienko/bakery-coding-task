@@ -9,7 +9,8 @@ jobs:
       CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
 
     steps:
-      - uses: actions/checkout@v1
+      - name: Checkout code
+        uses: actions/checkout@v2
       - name: Set up Ruby 2.7.x
         uses: ruby/setup-ruby@v1
         with:
