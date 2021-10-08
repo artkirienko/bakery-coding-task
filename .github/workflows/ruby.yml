@@ -14,10 +14,10 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Set up Ruby 2.7.x
+      - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7
+          ruby-version: .ruby-version
       - name: Build and test with Rake, RSpec, RuboCop, Fasterer
         run: |
           gem install bundler -v 2.0.2
