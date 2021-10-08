@@ -18,6 +18,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: .ruby-version
+          bundler-cache: true
       - name: Build and test with Rake, RSpec, RuboCop, Fasterer
         run: |
           gem install bundler -v 2.0.2
