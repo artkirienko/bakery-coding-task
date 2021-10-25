@@ -23,7 +23,7 @@ jobs:
         run: |
           gem install bundler -v 2.0.2
           bundle install --jobs 4 --retry 3
-          bundle exec rake
+          bin/rake
           bundle exec rubocop
           bundle exec fasterer
       - name: Upload coverage to Codecov
