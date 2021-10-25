@@ -25,6 +25,6 @@ jobs:
           bundle install --jobs 4 --retry 3
           bin/rake
           bin/rubocop
-          bundle exec fasterer
+          bin/fasterer
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v1
