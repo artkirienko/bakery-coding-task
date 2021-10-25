@@ -21,8 +21,6 @@ jobs:
           bundler-cache: true
       - name: Build and test with Rake, RSpec, RuboCop, Fasterer
         run: |
-          gem install bundler -v 2.0.2
-          bundle install --jobs 4 --retry 3
           bin/rake
           bin/rubocop
           bin/fasterer
