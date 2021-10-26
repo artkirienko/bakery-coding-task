@@ -19,10 +19,14 @@ jobs:
         with:
           ruby-version: .ruby-version
           bundler-cache: true
-      - name: Build and test with Rake, RSpec, RuboCop, Fasterer
-        run: |
-          bin/rake
-          bin/rubocop
-          bin/fasterer
+      - name: Lint code for consistent style with RuboCop
+        run: bin/rubocop --parallel -f github
+        continue-on-error: true
+      - name: Use Fasterer to check various places in your code that could be faster.
+        run: bin/fasterer
+        continue-on-error: true
+      - name: Build and test with Rake, RSpec
+        run: bin/rake
+        continue-on-error: true
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v1
